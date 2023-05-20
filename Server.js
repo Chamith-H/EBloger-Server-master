@@ -16,6 +16,6 @@ mongoose.connect(clusterURL)
 app.use("/", require("./Routes/Users_Route"));
 
 //Testing Back-End
-app.listen(8000, 'https://e-bloger-server-master.vercel.app/', function() {
+app.listen('https://e-bloger-server-master.vercel.app/', function() {
     console.log("Server was up")
 })
